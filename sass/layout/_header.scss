@@ -1,0 +1,29 @@
+#page-header {
+  width: 100%;
+  padding: 2rem;
+
+  nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+      width: 100%;
+      display: flex;
+      align-items: space-around;
+      justify-content: space-around;
+    }
+  }
+}
+
+#btn-login {
+  background-color: var(--red);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 6.25rem;
+
+  font-family: "Roboto";
+  color: #fff;
+}

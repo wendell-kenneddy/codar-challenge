@@ -1,0 +1,132 @@
+@media (min-width: 768px) {
+  #page-footer {
+    align-items: center;
+    justify-content: center;
+
+    #about {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 899px) {
+  #page-header {
+    nav {
+      ul {
+        li:last-of-type {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    margin: {
+      bottom: 2rem;
+      top: 2rem;
+    }
+  }
+
+  #page-header {
+    padding: 0.5rem;
+    
+    display: flex;
+    align-items: space-between;
+
+    nav {
+      align-items: center;
+
+      ul {
+        margin-top: -0.5rem;
+
+        align-items: center;
+        justify-content: flex-end;
+
+        li {
+          margin: 0 1rem;
+        }
+      }
+    }
+  }
+
+  #page-main {
+    #promote {
+      margin-bottom: 8rem;
+      width: 100%;
+      padding: 0;
+
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    #promoting {
+      margin: 0;
+
+      button {
+        margin-top: 1.5rem;
+      }
+    }
+
+    #offer {
+      width: 100%;
+
+      flex-direction: row;
+      align-items: space-around;
+      justify-content: space-around;
+
+      #coding {
+        align-self: flex-start;
+        order: 2;
+      }
+    }
+
+    #tel {
+      margin-top: 1.5rem;
+
+      display: flex;
+      flex-direction: column;
+
+      .input-and-button-group {
+        display: flex;
+        flex-direction: row;
+
+        input {
+          margin-right: 1.5rem;
+        }
+      }
+    }
+
+    #comments {
+      margin-top: 10rem;
+
+      flex-direction: row;
+    }
+
+    .card:first-of-type {
+      margin-right: 1.5rem;
+    }
+  }
+
+  #page-footer {
+    padding: 2rem;
+    
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    section:not(:last-of-type) {
+      margin-right: 2rem;
+    }
+
+    #about {
+      width: 20%;
+    }
+  }
+}

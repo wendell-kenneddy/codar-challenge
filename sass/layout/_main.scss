@@ -1,0 +1,130 @@
+#promote {
+  margin-bottom: 4rem;
+  padding: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#promoting {
+  margin: 1rem auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-weight: 700;
+}
+
+#amazing-website-call {
+  color: var(--red);
+  font-size: 2rem;
+}
+
+#request {
+  background-color: var(--red);
+  padding: 0.8rem;
+  border: none;
+  border-radius: 1rem;
+  width: 100%;
+
+  font-family: "Roboto";
+  font-size: 1rem;
+  color: #fff;
+}
+
+#offer {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#offer-list {
+  margin: 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 1rem;
+    }
+  }
+}
+
+#tel {
+  p {
+    font-weight: 700;
+  }
+
+  input,
+  button {
+    background-color: #cecece;
+    border: none;
+    border-radius: 1rem;
+    margin: 0.5rem auto;
+    padding: 0.8rem;
+    display: block;
+    width: 80%;
+  }
+
+  button {
+    background-color: var(--red);
+    color: #fff;
+    font-family: "Roboto";
+  }
+}
+
+#comments {
+  padding: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background-color: #cecece;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  img {
+    margin-top: 0.5rem;
+    margin-right: 0.8rem;
+    align-self: flex-start;
+  }
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.comment {
+  padding: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+
+  p:not(:last-of-type) {
+    margin-bottom: 0.5rem;
+  }
+
+  #comment-author {
+    margin-bottom: 0;
+
+    font-size: 1.5rem;
+  }
+}
